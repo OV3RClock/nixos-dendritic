@@ -44,14 +44,14 @@
     hostName = hostname;
   };
 
-  services.openssh = {
-    enable = true;
-    settings = {
-      PermitRootLogin = "no";
-      PasswordAuthentication = false;
-      KbdInteractiveAuthentication = false;
-    };
-  };
+  # services.openssh = {
+  #   enable = true;
+  #   settings = {
+  #     PermitRootLogin = "no";
+  #     PasswordAuthentication = false;
+  #     KbdInteractiveAuthentication = false;
+  #   };
+  # };
 
   system.stateVersion = "25.11"; # do not change this
 }
