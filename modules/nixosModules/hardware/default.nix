@@ -1,16 +1,12 @@
-{ lib, ... }:
+{ self, inputs, ... }:
 {
-  imports = [
-    ./cpu
-    ./gpu
-    ./asus.nix
-    ./audio.nix
-    ./bluetooth.nix
-    ./networking.nix
-    ./touchpad.nix
-  ];
+  flake.nixosModules.hardware = 
+  { lib, ... }:
+  {
+    hardware.enableRedistributableFirmware = true;
 
-  audio.enable = lib.mkDefault true;
-  bluetooth.enable = lib.mkDefault true;
-  networking.enable = lib.mkDefault true;
+    audio.enable = lib.mkDefault true;
+    bluetooth.enable = lib.mkDefault true;
+    networking.enable = lib.mkDefault true;
+  };
 }

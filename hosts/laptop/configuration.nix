@@ -1,15 +1,50 @@
+{ self, inputs, ... }:
+let 
+  laptopHostname = "over-nixos-laptop";
+  laptopUsername = "valentin";
+in 
 {
-  # HARDWARE
-  intelCpu.enable = true;
-  intelGpu.enable = true;
-  nvidiaGpu.enable = true;
-  prime.enable = true;
-  touchpad.enable = true;
+  flake.nixosConfigurations = {
+    "${laptopHostname}" = inputs.nixpkgs.lib.nixosSystem
+    {
+      modules = [
+        self.nixosModules.laptopConfig
+        self.nixosModules.core
+        self.nixosModules.hardware
+        self.nixosModules.de
+        self.nixosModules.commonPrograms
+        self.nixosModules.gamingPrograms
+        self.nixosModules.workPrograms
+        self.nixosModules.homeManager
+      ];
+    };
+  };
+  
+  flake.nixosModules.laptopConfig = 
+  {
+    # SETTINGS
+    settings.hostname = "${laptopHostname}";
+    settings.username = "${laptopUsername}";
 
-  # DESKTOP ENVIRONMENT
-  kde.enable = true;
+    # HARDWARE
+    intelCpu.enable = true;
+    intelGpu.enable = true;
+    nvidiaGpu.enable = true;
+    prime.enable = true;
+    touchpad.enable = true;
 
-  # PACKAGES
-  gamingPkgs.enable = true;
-  workPkgs.enable = true;
+    # DESKTOP ENVIRONMENT
+    kde.enable = true;
+
+    # HOME MANAGER
+    home-manager.users = 
+    {
+      "${laptopUsername}" = {
+        imports = [
+          self.homeModules.laptopConfig
+          self.homeModules.commonPrograms
+        ];
+      };
+    }; 
+  };
 }

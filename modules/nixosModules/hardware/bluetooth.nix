@@ -1,10 +1,14 @@
-{ config, lib, ... }:
+{ self, inputs, ... }:
 {
-  options = {
-    bluetooth.enable = lib.mkEnableOption "bluetooth";
-  };
+  flake.nixosModules.hardware = 
+  { config, lib, ... }:
+  {
+    options = {
+      bluetooth.enable = lib.mkEnableOption "bluetooth";
+    };
 
-  config = lib.mkIf config.bluetooth.enable {
-    hardware.bluetooth.enable = true;
+    config = lib.mkIf config.bluetooth.enable {
+      hardware.bluetooth.enable = true;
+    };
   };
 }

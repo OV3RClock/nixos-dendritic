@@ -1,5 +1,0 @@
-{
-  imports = [
-    ./intelCpu.nix
-  ];
-}

@@ -1,10 +1,14 @@
-{ config, lib, ... }:
+{ self, inputs, ... }:
 {
-  options = {
-    touchpad.enable = lib.mkEnableOption "touchpad";
-  };
+  flake.nixosModules.hardware = 
+  { config, lib, ... }:
+  {
+    options = {
+      touchpad.enable = lib.mkEnableOption "touchpad";
+    };
 
-  config = lib.mkIf config.touchpad.enable {
-    services.libinput.enable = true;
+    config = lib.mkIf config.touchpad.enable {
+      services.libinput.enable = true;
+    };
   };
 }
