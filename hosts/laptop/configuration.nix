@@ -20,8 +20,7 @@ in
     };
   };
   
-  flake.nixosModules.laptopConfig = 
-  {
+  flake.nixosModules.laptopConfig = {
     # SETTINGS
     settings.hostname = "${laptopHostname}";
     settings.username = "${laptopUsername}";
@@ -42,9 +41,10 @@ in
       "${laptopUsername}" = {
         imports = [
           self.homeModules.laptopConfig
+          self.homeModules.de
           self.homeModules.commonPrograms
         ];
       };
-    }; 
+    };
   };
 }

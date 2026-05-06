@@ -13,6 +13,7 @@
     home-manager = {
       useGlobalPkgs = true;
       useUserPackages = true;
+      sharedModules = [ inputs.plasma-manager.homeModules.plasma-manager ];
     };
   };
 }
