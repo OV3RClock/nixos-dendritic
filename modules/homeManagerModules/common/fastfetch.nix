@@ -63,7 +63,7 @@
             {
               key = "│ {#title}󰍛 cpu    {#keys} │";
               type = "cpu";
-              showPeCoreCount = true;
+              format = "{1} {7}";
             }
             {
               key = "│ {#title}󰊴 gpu    {#keys} │";
