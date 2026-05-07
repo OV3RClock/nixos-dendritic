@@ -58,7 +58,7 @@
                                                                                 },
                                                                                 {
                                                                                     "VolumeControls": {
-                                                                                        "Mode": 3
+                                                                                        "Mode": 7
                                                                                     }
                                                                                 }
                                                                             ]
@@ -107,7 +107,7 @@
                                                                             "AlternatingRows": false,
                                                                             "Artwork": 0,
                                                                             "Captions": 2,
-                                                                            "Columns": "3|4:2",
+                                                                            "Columns": "3|4",
                                                                             "Display": 1,
                                                                             "Group": "Default",
                                                                             "ID": "8279e8f63b6442a1959a6edc8206659e",
@@ -115,7 +115,7 @@
                                                                             "ShowHeader": true,
                                                                             "ShowScrollbar": true,
                                                                             "ShowSummary": false,
-                                                                            "State": "AAAANXjaY2BgYGJgYHzFwMAQzwBmgwEjiG3/6uy7/3zaJfZHTrgwHw/SY4RKMAIAzhUJPg=="
+                                                                            "State": "AAAANXjaY2BgYAIiOQYGBm0GMBsMGEFs+7fzOZtvfphhv5l980ODajuQION/IAAAqqAMfw=="
                                                                         }
                                                                     },
                                                                     {
@@ -131,7 +131,7 @@
                                                                             "ShowHeader": true,
                                                                             "ShowScrollbar": true,
                                                                             "ShowSummary": false,
-                                                                            "State": "AAAAJXjaY2BgYGRgYPJkANNgwGj/AcqACjAAABx3AX8="
+                                                                            "State": "AAAAJXjaY2BgYGRgYDJhANNgwGj/AcqACjAAABoBAWo="
                                                                         }
                                                                     }
                                                                 ]
@@ -143,7 +143,7 @@
                                             {
                                                 "Playlist": {
                                                     "Columns": "8:132|3|0:2|1|7:2",
-                                                    "HeaderState": "AAAAZXjaY2BgYGVgYBABYjk0GiQOAoxAzATEzEDMAhK3X7cj8HWr3A77G2AqyH5L1UP3dSLVcP7OmSAwC6SR4T8QAACU/Bks",
+                                                    "HeaderState": "AAAAZXjaY2BgYGVgYEgBYhEkGoRB4iDACMRMQMwMxCwgcft1OwJft8rtsL8BpoLst1Q9dF8nUg3n75wJArNAGhn+AwEAxoQZuA==",
                                                     "ID": "1e82e34a883a4563b6b8fe10afbdb4d4",
                                                     "Preset": 0,
                                                     "SingleMode": false
