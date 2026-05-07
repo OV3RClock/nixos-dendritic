@@ -6,7 +6,7 @@
     wallpaper = ./../../../assets/wallpapers/late-night.png;
   in 
   {
-    programs.plasma = { 
+    programs.plasma = {
       enable = true;
       overrideConfig = false;
 
