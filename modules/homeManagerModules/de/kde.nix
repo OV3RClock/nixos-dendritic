@@ -6,7 +6,7 @@
     wallpaper = ./../../../assets/wallpapers/late-night.png;
   in 
   {
-    programs.plasma = {
+    programs.plasma = { 
       enable = true;
       overrideConfig = false;
 
@@ -304,8 +304,10 @@
 
         kwin."Window Close" = "Meta+C";
         kwin."Window Fullscreen" = "Meta+F";
-        kwin."Window One Desktop to the Left" = "Meta+Left";
-        kwin."Window One Desktop to the Right" = "Meta+Right";
+        kwin."Switch to Previous Desktop" = "Meta+Left";
+        kwin."Switch to Next Desktop" = "Meta+Right";
+        kwin."Window One Desktop to the Left" = "Meta+Ctrl+Left";
+        kwin."Window One Desktop to the Right" = "Meta+Ctrl+Right";
         
         kwin."Window to Previous Screen" = [ ];
         kwin."Window to Next Screen" = [ ];
