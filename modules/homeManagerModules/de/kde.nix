@@ -286,6 +286,33 @@
         };
       };
       
+      # fonts = {
+      #   general = {
+      #     family = "JetBrainsMonoNL Nerd Font Mono";
+      #     pointSize = 10;
+      #   };
+      #   fixedWidth = {
+      #     family = "JetBrainsMonoNL Nerd Font Mono";
+      #     pointSize = 10;
+      #   };
+      #   small = {
+      #     family = "JetBrainsMonoNL Nerd Font Mono";
+      #     pointSize = 8;
+      #   };
+      #   toolbar = {
+      #     family = "JetBrainsMonoNL Nerd Font Mono";
+      #     pointSize = 10;
+      #   };
+      #   menu = {
+      #     family = "JetBrainsMonoNL Nerd Font Mono";
+      #     pointSize = 10;
+      #   };
+      #   windowTitle = {
+      #     family = "JetBrainsMonoNL Nerd Font Mono";
+      #     pointSize = 10;
+      #   };
+      # };
+
       shortcuts = {
         "services/firefox.desktop"._launch = "Meta+A";
         "services/kitty.desktop"._launch = "Meta+Q";

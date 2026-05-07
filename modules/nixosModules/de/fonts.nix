@@ -5,6 +5,7 @@
   {
     fonts = {
       packages = [
+        pkgs.nerd-fonts.jetbrains-mono
         pkgs.nerd-fonts.symbols-only
         pkgs.noto-fonts
         pkgs.noto-fonts-cjk-sans
@@ -23,9 +24,9 @@
           lcdfilter = "none"; # "none", "default", "light", "legacy"
         };
         defaultFonts = {
-          serif = [ "DejaVu Serif" ];
-          sansSerif = [ "DejaVu Sans" ];
-          monospace = [ "DejaVu Sans Mono" ];
+          serif = [ "JetBrainsMono Nerd Font Mono" ];
+          sansSerif = [ "JetBrainsMonoNL Nerd Font Mono" ];
+          monospace = [ "JetBrainsMonoNL Nerd Font Mono" ];
           emoji = [ "Noto Color Emoji" ];
         };
       };
