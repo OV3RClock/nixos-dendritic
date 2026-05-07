@@ -76,7 +76,7 @@
                                 {
                                     "TabStack": {
                                         "Position": "North",
-                                        "State": "Library\u001fPlaylist\u001fPlaylist Organizer",
+                                        "State": "Library\u001fPlaylist",
                                         "Widgets": [
                                             {
                                                 "SplitterHorizontal": {
@@ -115,7 +115,7 @@
                                                                             "ShowHeader": true,
                                                                             "ShowScrollbar": true,
                                                                             "ShowSummary": false,
-                                                                            "State": "AAAANXjaY2BgYAIiOQYGBm0GMBsMGEFs+7fzOZtvfphhv5l980ODajuQION/IAAAqqAMfw=="
+                                                                            "State": "AAAANXjaY2BgYGJgYPzBwMBgwwBmgwEjiG3/prv34okdd+13L55YuMtSjAEmCQDdxgpX"
                                                                         }
                                                                     },
                                                                     {
@@ -131,7 +131,7 @@
                                                                             "ShowHeader": true,
                                                                             "ShowScrollbar": true,
                                                                             "ShowSummary": false,
-                                                                            "State": "AAAAJXjaY2BgYGRgYDJhANNgwGj/AcqACjAAABoBAWo="
+                                                                            "State": "AAAAJXjaY2BgYGRgYDJhANNgwGj/gQEVAAAZ+AFp"
                                                                         }
                                                                     }
                                                                 ]
@@ -143,14 +143,10 @@
                                             {
                                                 "Playlist": {
                                                     "Columns": "8:132|3|0:2|1|7:2",
-                                                    "HeaderState": "AAAAZXjaY2BgYGVgYEgBYhEkGoRB4iDACMRMQMwMxCwgcft1OwJft8rtsL8BpoLst1Q9dF8nUg3n75wJArNAGhn+AwEAxoQZuA==",
+                                                    "HeaderState": "AAAAZXjaY2BgYGVgYAhgYGD8C6SzoXQbA0QcBBiBmAmImYGYBSRuv25H4OtWuR32N8BUkP2Wqofu60Sq4fydM0FgFkgjw38gAACBixvx",
                                                     "ID": "1e82e34a883a4563b6b8fe10afbdb4d4",
                                                     "Preset": 0,
-                                                    "SingleMode": false
-                                                }
-                                            },
-                                            {
-                                                "PlaylistOrganiser": {
+                                                    "SingleMode": true
                                                 }
                                             }
                                         ]
