@@ -56,11 +56,12 @@
           };
         };
         virtualDesktops = {
-          rows = 1;
+          rows = 2;
           names = [
             "Desktop 1"
             "Desktop 2"
             "Desktop 3"
+            "Desktop 4"
           ];
         };
         borderlessMaximizedWindows = true;
@@ -308,19 +309,19 @@
         kwin."Switch to Next Desktop" = "Meta+Right";
         kwin."Window One Desktop to the Left" = "Meta+Ctrl+Left";
         kwin."Window One Desktop to the Right" = "Meta+Ctrl+Right";
+        kwin."Window One Desktop Up" = "Meta+Ctrl+Up";
+        kwin."Window One Desktop Down" = "Meta+Ctrl+Down";
         
         kwin."Window to Previous Screen" = [ ];
         kwin."Window to Next Screen" = [ ];
         kwin."Activate Window Demanding Attention" = [ ];
         kwin."Window Maximize" = [ ];
         kwin."Window Minimize" = [ ];
-        kwin."Window One Desktop Down" = [ ];
-        kwin."Window One Desktop Up" = [ ];
         kwin."Window Operations Menu" = [ ];
-        kwin."Window Quick Tile Bottom" = [ ];
         kwin."Window Quick Tile Left" = [ ];
         kwin."Window Quick Tile Right" = [ ];
         kwin."Window Quick Tile Top" = [ ];
+        kwin."Window Quick Tile Bottom" = [ ];
         kwin.disableInputCapture = [ ];
         kwin.Expose = [ ];
         kwin.ExposeAll = [ ];
