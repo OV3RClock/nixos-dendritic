@@ -305,8 +305,10 @@
 
         kwin."Window Close" = "Meta+C";
         kwin."Window Fullscreen" = "Meta+F";
-        kwin."Switch to Previous Desktop" = "Meta+Left";
-        kwin."Switch to Next Desktop" = "Meta+Right";
+        kwin."Switch One Desktop to the Left" = "Meta+Left";
+        kwin."Switch One Desktop to the Right" = "Meta+Right";
+        kwin."Switch One Desktop Up" = "Meta+Up";
+        kwin."Switch One Desktop Down" = "Meta+Down";
         kwin."Window One Desktop to the Left" = "Meta+Ctrl+Left";
         kwin."Window One Desktop to the Right" = "Meta+Ctrl+Right";
         kwin."Window One Desktop Up" = "Meta+Ctrl+Up";
@@ -340,10 +342,6 @@
         kwin."Walk Through Windows of Current Application" = [ ];
         kwin."Walk Through Windows of Current Application (Reverse)" = [ ];
         kwin."Show Desktop" = [ ];
-        kwin."Switch One Desktop Down" = [ ];
-        kwin."Switch One Desktop Up" = [ ];
-        kwin."Switch One Desktop to the Left" = [ ];
-        kwin."Switch One Desktop to the Right" = [ ];
         kwin."Switch Window Down" = [ ];
         kwin."Switch Window Left" = [ ];
         kwin."Switch Window Right" = [ ];
