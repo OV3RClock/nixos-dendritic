@@ -4,6 +4,8 @@
   { config, lib, pkgs, ... }:
   {    
     environment.systemPackages = [
+      pkgs.cinny-desktop
+      pkgs.fooyin
       pkgs.linux-firmware
       pkgs.mission-center
       pkgs.nvd
