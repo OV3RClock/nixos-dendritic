@@ -26,12 +26,12 @@
           # https://firefox-admin-docs.mozilla.org/reference/policies/
 
           ### Bookmarks ###
-          ManagedBookmarks = [
-            {
-              url = "https://account.proton.me/apps";
-              name = "Proton";
-            }
-          ];
+          # ManagedBookmarks = [
+          #   {
+          #     url = "https://account.proton.me/apps";
+          #     name = "Proton";
+          #   }
+          # ];
           DisplayBookmarksToolbar = "newtab";
           DisableSetDesktopBackground = true;
 
