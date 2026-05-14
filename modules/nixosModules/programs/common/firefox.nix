@@ -76,31 +76,31 @@
           AIControls = {
             Default = {
               Value = "blocked";
-              Locked = false
+              Locked = false;
             };
             Translations = {
               Value = "blocked";
-              Locked = false
+              Locked = false;
             };
             PDFAltText = {
               Value = "blocked";
-              Locked = false
+              Locked = false;
             };
             SmartTabGroups = {
               Value = "blocked";
-              Locked = false
+              Locked = false;
             };
             LinkPreviewKeyPoints = {
               Value = "blocked";
-              Locked = false
+              Locked = false;
             };
             SidebarChatbot = {
               Value = "blocked";
-              Locked = false
+              Locked = false;
             };
             SmartWindow = {
               Value = "blocked";
-              Locked = false
+              Locked = false;
             };
           };
           DisableAccounts = true;
