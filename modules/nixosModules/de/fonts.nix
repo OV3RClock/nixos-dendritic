@@ -5,7 +5,7 @@
   {
     fonts = {
       packages = [
-        pkgs.nerd-fonts.jetbrains-mono
+        pkgs.jetbrains-mono
         pkgs.nerd-fonts.symbols-only
         pkgs.noto-fonts
         pkgs.noto-fonts-cjk-sans
@@ -24,10 +24,18 @@
           lcdfilter = "none"; # "none", "default", "light", "legacy"
         };
         defaultFonts = {
-          serif = [ "JetBrainsMono Nerd Font Mono" ];
-          sansSerif = [ "JetBrainsMonoNL Nerd Font Mono" ];
-          monospace = [ "JetBrainsMonoNL Nerd Font Mono" ];
-          emoji = [ "Noto Color Emoji" ];
+          serif = [
+            "JetBrains Mono"
+          ];
+          sansSerif = [
+            "JetBrains Mono NL"
+          ];
+          monospace = [
+            "JetBrains Mono NL"
+          ];
+          emoji = [
+            "Noto Color Emoji"
+          ];
         };
       };
     };
