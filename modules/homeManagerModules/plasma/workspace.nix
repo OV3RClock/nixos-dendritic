@@ -1,10 +1,7 @@
 { self, inputs, ... }:
 {
   flake.homeModules.plasma =
-  { lib, ... }:
-  let
-    wallpaper = ./../../../assets/wallpapers/late-night.png;
-  in 
+  { lib, wallpaper, ... }:
   {
     programs.plasma = {
       workspace = {

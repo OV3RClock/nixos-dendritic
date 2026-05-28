@@ -1,7 +1,7 @@
 { self, inputs, ... }:
 {
   flake.homeModules.plasma =
-  { lib, ... }:
+  { lib, wallpaper, ... }:
   {
     programs.plasma = {
       kscreenlocker = {

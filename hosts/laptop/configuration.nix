@@ -2,6 +2,7 @@
 let 
   laptopHostname = "over-nixos-laptop";
   laptopUsername = "valentin";
+  wallpaper = ./../../assets/wallpapers/late-night.png;
 in 
 {
   flake.nixosConfigurations = {
@@ -36,14 +37,18 @@ in
     plasma.enable = true;
 
     # HOME MANAGER
-    home-manager.users = 
-    {
-      "${laptopUsername}" = {
-        imports = [
-          self.homeModules.laptopConfig
-          self.homeModules.plasma
-          self.homeModules.commonPrograms
-        ];
+    home-manager = {
+      extraSpecialArgs = {
+        inherit wallpaper;
+      };
+      users = {
+        "${laptopUsername}" = {
+          imports = [
+            self.homeModules.laptopConfig
+            self.homeModules.plasma
+            self.homeModules.commonPrograms
+          ];
+        };
       };
     };
   };
