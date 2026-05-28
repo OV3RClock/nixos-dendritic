@@ -33,7 +33,7 @@ in
     touchpad.enable = true;
 
     # DESKTOP ENVIRONMENT
-    kde.enable = true;
+    plasma.enable = true;
 
     # HOME MANAGER
     home-manager.users = 
@@ -41,7 +41,7 @@ in
       "${laptopUsername}" = {
         imports = [
           self.homeModules.laptopConfig
-          self.homeModules.de
+          self.homeModules.plasma
           self.homeModules.commonPrograms
         ];
       };
