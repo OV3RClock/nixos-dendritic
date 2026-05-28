@@ -38,6 +38,66 @@
                 selectingCurrentVirtualDesktop = "doNothing";
               };
             }
+            # {
+            #   panelSpacer = {
+            #     expanding = false;
+            #     length = 4;
+            #   };
+            # }
+            # {
+            #   name = "org.kde.plasma.systemmonitor";
+            #   config = {
+            #     title = "CPU °C";
+            #     showTitle = true;
+            #     displayStyle = "org.kde.ksysguard.piechart";
+            #     sensors = [
+            #       {
+            #         name = "cpu/all/averageTemperature";
+            #         color = "233,233,233";
+            #         label = "CPU °C";
+            #       }
+            #     ];
+            #     range = {
+            #       from = 0;
+            #       to = 100;
+            #     };
+            #   };
+            # }
+            # {
+            #   panelSpacer = {
+            #     expanding = false;
+            #     length = 4;
+            #   };
+            # }
+            # {
+            #   name = "org.kde.plasma.systemmonitor";
+            #   config = {
+            #     title = "GPU °C";
+            #     showTitle = true;
+            #     displayStyle = "org.kde.ksysguard.piechart";
+            #     sensors = [
+            #       {
+            #         name = "gpu/gpu1/temperature";
+            #         color = "233,233,233";
+            #         label = "GPU °C";
+            #       }
+            #     ];
+            #     range = {
+            #       from = 0;
+            #       to = 100;
+            #     };
+            #   };
+            # }
+            {
+              panelSpacer = {
+                expanding = true;
+              };
+            }
+            {
+              iconTasks = {
+                launchers = [ ];
+              };
+            }
             {
               panelSpacer = {
                 expanding = true;
