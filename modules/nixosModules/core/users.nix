@@ -5,7 +5,6 @@
   {    
     programs.bash = {
       enable = true;
-      # interactiveShellInit = "eval \"fastfetch\"\neval \"$(starship init bash)\"";
       interactiveShellInit = "fastfetch\neval \"$(starship init bash)\"";
     };
     
