@@ -8,6 +8,7 @@
       programs.vscode.extensions = [
         pkgs.vscode-extensions.ms-dotnettools.csharp
         pkgs.vscode-extensions.ms-dotnettools.csdevkit
+        pkgs.vscode-extensions.ms-dotnettools.vscode-dotnet-runtime
         pkgs.vscode-extensions.visualstudiotoolsforunity.vstuc
       ];
     };
